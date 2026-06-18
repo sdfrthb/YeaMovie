@@ -1,0 +1,34 @@
+.random-movie_container {
+  width: calc(100% - 120px);
+  display: flex;
+  justify-content: space-between;
+  padding: 34px;
+  background: rgba(8, 4, 35, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+}
+
+.random-movie_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  width: 600px;
+}
+.random-movie_date {
+  font-weight: 500;
+  font-size: 30px;
+}
+.random-movie_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.random-movie_title {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.random-movie_poster {
+  max-width: 500px;
+  border-radius: 10px;
+}

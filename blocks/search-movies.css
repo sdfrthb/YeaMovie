@@ -1,0 +1,68 @@
+.back-button {
+  margin-left: 30px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  font-size: 16px;
+  color: rgba(122, 122, 122, 1);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.search_title {
+  color: rgba(8, 4, 35, 1);
+  text-align: center;
+  font-weight: 500;
+}
+
+.search_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: calc(100% - 120px);
+}
+.search_card {
+  width: 100%;
+  display: flex;
+  gap: 70px;
+}
+
+.search_card_image {
+  width: 482px;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.search_card_data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  max-width: 765px;
+}
+
+.search_card_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search_card_title, .search_card_rate{
+  font-weight: 500;
+}
+
+.search_card_title {
+  font-size: 80px;
+}
+
+.search_card_info_table {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 50px;
+  color: rgba(21, 21, 21, 0.28);
+}
+
+.search_card_rate {
+  color: rgba(255, 210, 51, 1);
+}

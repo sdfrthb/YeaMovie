@@ -1,0 +1,75 @@
+.popular-movies_container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: calc(100% - 120px);
+}
+
+.popular-movies_buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.popular-movies_button {
+  border-radius: 60px;
+  font-weight: 500;
+  padding: 10px 30px 12px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.popular-movies_button.active {
+  background: rgba(34, 33, 33, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+#movies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.card_image {
+  width: 100%;
+  border-radius: 10px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.card_data {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.card_info {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.card_title, .card_rate{
+  font-weight: 500;
+}
+
+.card_year {
+  font-size: 16px;
+  color: rgba(21, 21, 21, 0.28);
+}
+
+.card_rate {
+  color: rgba(255, 210, 51, 1);
+}
