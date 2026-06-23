@@ -3,7 +3,6 @@ const modalBody = modal.querySelector('#modal-body');
 const closeModal = modal.querySelector('.modal-close');
 
 function openModal(movie) {
-  console.log(movie)
   modalBody.innerHTML = `
   <img src='${movie.poster?.url}' class="search_card_image">
   <div class="search_card_data">

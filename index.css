@@ -10,9 +10,9 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/fonts/Acrom-Regular.woff2) format('woff2'),
-    url(/fonts/Acrom-Regular.woff) format('woff'),
-    url(/fonts/Acrom-Regular.ttf) format('truetype'),
+  src: url(./fonts/Acrom-Regular.woff2) format('woff2'),
+    url(./fonts/Acrom-Regular.woff) format('woff'),
+    url(./fonts/Acrom-Regular.ttf) format('truetype'),
 }
 
 @font-face {
@@ -20,9 +20,9 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(/fonts/Acrom-Medium.woff2) format('woff2'),
-    url(/fonts/Acrom-Medium.woff) format('woff'),
-    url(/fonts/Acrom-Medium.ttf) format('truetype'),
+  src: url(./fonts/Acrom-Medium.woff2) format('woff2'),
+    url(./fonts/Acrom-Medium.woff) format('woff'),
+    url(./fonts/Acrom-Medium.ttf) format('truetype'),
 }
 
 * {
